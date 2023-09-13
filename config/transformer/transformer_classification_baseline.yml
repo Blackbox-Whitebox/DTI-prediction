@@ -1,0 +1,17 @@
+# run specs
+SEED: 42
+NAME: "transformer" # model name
+RUN_NAME: "transformer-classification-baseline" # unique run_name
+# seed
+
+# hyperparams
+LR: 3e-4
+EPOCHS: 300
+BATCH_SIZE: 8
+
+# model config
+DROPOUT: 0.2
+NUM_LAYERS: 2
+NUM_HEADS: 4
+HIDDEN_SIZE: 256 #4 * 4
+CONTRASTIVE: False

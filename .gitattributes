@@ -1,0 +1,9 @@
+logs filter=lfs diff=lfs merge=lfs -text
+logs/* filter=lfs diff=lfs merge=lfs -text
+logs/transformer-classification-baseline filter=lfs diff=lfs merge=lfs -text
+checkpoints/classification/transformer-classification-baseline filter=lfs diff=lfs merge=lfs -text
+logs/transformer-classification-baseline/events.out.tfevents.1694451732.ip-172-31-12-234.29339.0 filter=lfs diff=lfs merge=lfs -text
+logs/transformer-classification-baseline/events.out.tfevents.1694451732.ip-172-31-12-234.29339.0 filter=lfs diff=lfs merge=lfs -text
+logs/crosstransformer-contrastive-baseline/events.out.tfevents.1693644241.ip-172-31-12-234.159564.0 filter=lfs diff=lfs merge=lfs -text
+data/*.csv filter=lfs diff=lfs merge=lfs -text
+notebooks/*.csv filter=lfs diff=lfs merge=lfs -text

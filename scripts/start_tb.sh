@@ -1,0 +1,1 @@
+nohup tensorboard --logdir=../logs --host=0.0.0.0 --port 6007 > ../tensorboard_logs.log &

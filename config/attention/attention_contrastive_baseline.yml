@@ -1,0 +1,15 @@
+# run specs
+SEED: 42
+NAME: "attention" # model name
+RUN_NAME: "attentionsiamese-contrastive-baseline" # unique run_name
+# seed
+
+# hyperparams
+LR: 1e-4
+EPOCHS: 3000
+BATCH_SIZE: 512
+
+# model config
+DROPOUT: 0
+HIDDEN_SIZE: 32
+CONTRASTIVE: True

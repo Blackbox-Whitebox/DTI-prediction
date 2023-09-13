@@ -1,0 +1,17 @@
+# run specs
+SEED: 42
+NAME: "crosstransformer" # model name
+RUN_NAME: "crosstransformer-classification-baseline" # unique run_name
+# seed
+
+# hyperparams
+LR: 3e-5
+EPOCHS: 3000
+BATCH_SIZE: 16
+
+# model config
+DROPOUT: 0
+NUM_LAYERS: 2
+NUM_HEADS: 4
+HIDDEN_SIZE: 256 # 64 * 4
+CONTRASTIVE: False
